@@ -32,14 +32,14 @@ if (subtotal > 1000){
     baseConDescuento = subtotal - descuento
     iva = baseConDescuento * 0.16
     total = baseConDescuento + iva
-    console.log(`SUBTOTAL: ${subtotal}`);
-    console.log(`DESCUENTO: ${descuento}`);
-    console.log(`IVA: ${iva}`);
-    console.log(`TOTAL: ${total}`);
+    console.log(`SUBTOTAL: ${subtotal.toFixed(2)}`);
+    console.log(`DESCUENTO: ${descuento.toFixed(2)}`);
+    console.log(`IVA: ${iva.toFixed(2)}`);
+    console.log(`TOTAL: ${total.toFixed(2)}`);
 }else{
     iva = subtotal * 0.16;
     total = subtotal + iva;
-    console.log(`SUBTOTAL: ${subtotal}`);
-    console.log(`IVA: ${iva}`);
-    console.log(`TOTAL: ${total}`);
+    console.log(`SUBTOTAL: ${subtotal.toFixed(2)}`);
+    console.log(`IVA: ${iva.toFixed(2)}`);
+    console.log(`TOTAL: ${total.toFixed(2)}`);
 }

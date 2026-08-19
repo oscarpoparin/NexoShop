@@ -42,16 +42,17 @@ void main(){
         baseConDescuento = subtotal - descuento;
         iva = baseConDescuento * 0.16;
         total = baseConDescuento + iva;
-        print('SUBTOTAL: $subtotal');
-        print('DESCUENTO: $descuento');
-        print('IVA: $iva');
-        print('TOTAL: $total');
+        print('SUBTOTAL: ${subtotal.toStringAsFixed(2)}');
+        print('DESCUENTO: ${descuento.toStringAsFixed(2)}');
+        print('IVA: ${iva.toStringAsFixed(2)}');
+        print('TOTAL: ${total.toStringAsFixed(2)}');
+        
       }else{
         iva = subtotal * 0.16;
         total = subtotal + iva;
-        print('SUBTOTAL: $subtotal');
-        print('IVA: $iva');
-        print('TOTAL: $total');
+        print('SUBTOTAL: ${subtotal.toStringAsFixed(2)}');
+        print('IVA: ${iva.toStringAsFixed(2)}');
+        print('TOTAL: ${total.toStringAsFixed(2)}');
       }
       break;
     case 2:
@@ -68,16 +69,16 @@ void main(){
         baseConDescuento = subtotal - descuento;
         iva = baseConDescuento * 0.16;
         total = baseConDescuento + iva;
-        print('SUBTOTAL: $subtotal');
-        print('DESCUENTO: $descuento');
-        print('IVA: $iva');
-        print('TOTAL: $total');
+        print('SUBTOTAL: ${subtotal.toStringAsFixed(2)}');
+        print('DESCUENTO: ${descuento.toStringAsFixed(2)}');
+        print('IVA: ${iva.toStringAsFixed(2)}');
+        print('TOTAL: ${total.toStringAsFixed(2)}');
       }else{
         iva = subtotal * 0.16;
         total = subtotal + iva;
-        print('SUBTOTAL: $subtotal');
-        print('IVA: $iva');
-        print('TOTAL: $total');
+        print('SUBTOTAL: ${subtotal.toStringAsFixed(2)}');
+        print('IVA: ${iva.toStringAsFixed(2)}');
+        print('TOTAL: ${total.toStringAsFixed(2)}');
       }
       break;
     default:
